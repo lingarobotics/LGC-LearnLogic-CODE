@@ -180,7 +180,7 @@ as a primary source for practice transcripts.
 
 ## LGC Ecosystem
 
-- **LGC LearnLogic**  
+- **LGC Concept AI**  
   AU exam-oriented conceptual learning system  
 
 - **LGC LearnLogic Code**  
