@@ -1,6 +1,6 @@
 # LGC LearnLogic Code
 
-**A MERN-based programming learning system focused on thinking, reasoning, and execution clarity — not memorization.**
+**A React-based programming learning system focused on thinking, reasoning, and execution clarity — not memorization.**
 
 ---
 
@@ -14,7 +14,7 @@ This project does **not** position itself as:
 
 Instead, it defines and enforces a **learning process** centered on **reasoning**, **execution flow**, and **verification of understanding**.
 
-The platform is implemented as a **MERN stack application**, where AI is used only as a **supporting verification tool**, not as the primary source of learning.
+The current version is implemented as a **frontend-first system**, where AI is used only as a **supporting verification tool**, not as the primary source of learning.
 
 ---
 
@@ -99,22 +99,20 @@ Learners understand:
 
 ---
 
-## Technology Stack
+## Technology Stack (Current Scope)
 
-### Core Platform (MERN)
+### Frontend (v1.0)
 
-- **MongoDB**
-- **Express.js**
 - **React.js**
-- **Node.js**
 
-The MERN application manages:
+The current version of **LGC LearnLogic Code** is a **frontend-only system**.
 
-- **learning flow control**
-- **concept progression**
-- **user interaction**
-- **structured practice**
-- **reflection and verification stages**
+All learning flows, examples, reading guides, and verification structures
+are implemented entirely through the UI.
+
+Backend services such as persistence, authentication, progress tracking,
+or verification history are **intentionally excluded from v1.0** and
+planned for future versions.
 
 ---
 
@@ -158,6 +156,25 @@ This project **is**:
 - **A thinking framework**
 - **A structured approach to programming education**
 - **A method for honest verification of understanding**
+
+---
+
+## Learning Resources Acknowledgement
+
+**LGC LearnLogic Code uses publicly available learning transcripts**
+for demonstration and example purposes.
+
+In particular, the frontend JavaScript example included in v1.0
+is based on transcripts from **freeCodeCamp**.
+
+- freeCodeCamp provides free, open, and high-quality educational content.
+- Transcripts are used **without modification** to demonstrate the
+  LearnLogic learning and explanation standard.
+- All original educational content rights remain with freeCodeCamp.
+
+For frontend and JavaScript learning, **freeCodeCamp is a reliable,
+accessible, and learner-first resource**, and is recommended
+as a primary source for practice transcripts.
 
 ---
 
