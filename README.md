@@ -203,3 +203,18 @@ It claims:
 > **Learn programming by thinking — using AI only to verify and refine understanding.**
 
 This principle defines the system **end-to-end**.
+
+---
+
+## Ownership
+
+This software system is an original product developed under **LGC Systems**.
+
+The ideation, system architecture, design, and overall product vision originate from  
+**Ramalingam Jayavelu**, Founder of LGC Systems.
+
+All intellectual property, including system architecture, design, implementation, and source code contained in this repository, belongs exclusively to **Ramalingam Jayavelu under LGC Systems**.
+
+This repository does not transfer ownership or rights to any external organization, institution, company, or third party.
+
+The software is maintained and governed solely under the LGC Systems initiative.
