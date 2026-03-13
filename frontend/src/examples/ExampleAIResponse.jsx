@@ -1,9 +1,9 @@
 function ExampleAIResponse() {
   return (
     <>
-      <div className="rule-box">
+      <div className="callout">
         <h3>Plain Transcript Explanation</h3>
-        <pre>
+        <pre className="transcript-block">
 {`Asynchronous JavaScript means some tasks do not execute immediately in sequence.
 These tasks run independently from the main flow of the program.
 The main advantage is that the program does not stop or freeze while waiting for slow operations.
@@ -34,9 +34,9 @@ Its value is unknown when it is created and becomes known when the operation com
         </pre>
       </div>
 
-      <div className="rule-box">
+      <div className="callout">
         <h3>Why the Concept Exists</h3>
-        <pre>
+        <pre className="transcript-block">
 {`Asynchronous JavaScript exists to prevent programs from becoming unresponsive.
 Without asynchronous execution, any slow task would block the entire program.
 This would freeze user interfaces and stop interaction.
@@ -44,9 +44,9 @@ Async allows JavaScript to continue running while waiting for slow operations to
         </pre>
       </div>
 
-      <div className="rule-box">
+      <div className="callout">
         <h3>Real-World Analogy</h3>
-        <pre>
+        <pre className="transcript-block">
 {`Asynchronous JavaScript is like ordering food at a restaurant and receiving a token.
 You place the order and are free to sit, talk, or use your phone.
 When the food is ready, you are notified.
@@ -54,18 +54,18 @@ The token represents a promise that will deliver the result later.`}
         </pre>
       </div>
 
-      <div className="rule-box">
+      <div className="callout">
         <h3>Software Usage</h3>
-        <pre>
+        <pre className="transcript-block">
 {`Asynchronous behavior is used when fetching data from APIs, handling user interactions, uploading files, and running timers.
 Developers use async code to keep interfaces responsive while background work is happening.
 A common beginner mistake is assuming async code runs in order without waiting, which can cause unexpected results if not handled properly.`}
         </pre>
       </div>
 
-      <div className="rule-box">
+      <div className="callout">
         <h3>Real-World (Non-Software) Usage</h3>
-        <pre>
+        <pre className="transcript-block">
 {`In real life, asynchronous behavior appears when you submit a form and receive confirmation later.
 You are not required to wait without doing anything.
 You continue with other tasks until the result arrives.
@@ -73,9 +73,9 @@ The flow depends on events completing, not strict order.`}
         </pre>
       </div>
 
-      <div className="rule-box">
+      <div className="callout">
         <h3>Cross-Questions</h3>
-        <pre>
+        <pre className="transcript-block">
 {`Q: Does asynchronous JavaScript mean code runs faster?
 A: No. It prevents blocking, not execution time.
 
@@ -90,9 +90,9 @@ A: No. Promises and async/await improve readability, but callbacks still exist.`
         </pre>
       </div>
 
-      <div className="rule-box">
+      <div className="callout">
         <h3>Doubt Mode</h3>
-        <pre>
+        <pre className="transcript-block">
 {`Awaiting further questions.`}
         </pre>
       </div>

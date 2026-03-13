@@ -1,19 +1,24 @@
 import { useNavigate } from "react-router-dom";
 import ExampleAIResponse from "./examples/ExampleAIResponse";
+import PageWrapper from "./components/PageWrapper";
 
 function ExampleAIResponsePage() {
   const navigate = useNavigate();
 
   return (
-    <main>
-      <h1>AI Response Example</h1>
+    <PageWrapper>
+      <section className="content-card">
+        <h1>AI Response Example</h1>
 
-      <ExampleAIResponse />
+        <ExampleAIResponse />
 
-      <button onClick={() => navigate("/example")}>
-        Back to Example
-      </button>
-    </main>
+        <div className="button-row">
+          <button className="btn-secondary" onClick={() => navigate("/example")}>
+            Back to Example
+          </button>
+        </div>
+      </section>
+    </PageWrapper>
   );
 }
 

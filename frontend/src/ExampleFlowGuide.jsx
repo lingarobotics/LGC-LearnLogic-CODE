@@ -1,23 +1,27 @@
 import { useNavigate } from "react-router-dom";
+import PageWrapper from "./components/PageWrapper";
 
 function ExampleFlowGuide() {
   const navigate = useNavigate();
 
   return (
-    <main>
-      <h1>What Should You Do Next?</h1>
+    <PageWrapper>
+      <section className="content-card">
+        <h1>What Should You Do Next?</h1>
 
-      <div className="rule-box">
-        <p>
-          You have now seen both the transcript and the AI-generated explanation.
-        </p>
+        <div className="callout">
+          <p>
+            You have now seen both the transcript and the AI-generated
+            explanation.
+          </p>
 
-        <p className="muted">
-          Do not rush forward. Choose the next step intentionally.
-        </p>
-      </div>
+          <p className="muted">
+            Do not rush forward. Choose the next step intentionally.
+          </p>
+        </div>
+      </section>
 
-      <div className="rule-box">
+      <section className="content-card">
         <h2>Learn How to Read the AI Explanation</h2>
 
         <p>
@@ -25,15 +29,19 @@ function ExampleFlowGuide() {
           felt dense, start here.
         </p>
 
-        <button onClick={() => navigate("/example/reading-guide")}>
-          How to Read This AI Explanation
-        </button>
-      </div>
-
-      <button onClick={() => navigate("/example")}>
-        Back to Example
-      </button>
-    </main>
+        <div className="button-row">
+          <button
+            className="btn-primary"
+            onClick={() => navigate("/example/reading-guide")}
+          >
+            How to Read This AI Explanation
+          </button>
+          <button className="btn-secondary" onClick={() => navigate("/example")}>
+            Back to Example
+          </button>
+        </div>
+      </section>
+    </PageWrapper>
   );
 }
 

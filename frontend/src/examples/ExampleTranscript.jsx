@@ -1,8 +1,8 @@
 function ExampleTranscript() {
   return (
-    <div className="rule-box">
+    <div className="callout">
       <h3>Raw Transcript</h3>
-      <pre>
+      <pre className="transcript-block">
 {`What Is Asynchronous JavaScript, and How Does It Differ from Synchronous JavaScript?
 Let’s learn about asynchronous JavaScript. Asynchronous events occur at different times, independently from each other.
 

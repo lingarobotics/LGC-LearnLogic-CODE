@@ -1,4 +1,6 @@
+import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SplashScreen from "./components/SplashScreen";
 
 import Home from "./Home";
 import MainAgenda from "./MainAgenda";
@@ -21,8 +23,27 @@ import ExampleTranscriptPage from "./ExampleTranscriptPage";
 import ExampleAIResponsePage from "./ExampleAIResponsePage";
 
 function App() {
+  const [showSplash, setShowSplash] = useState(true);
+  const [isFading, setIsFading] = useState(false);
+
+  useEffect(() => {
+    const fadeTimer = setTimeout(() => {
+      setIsFading(true);
+    }, 1500);
+
+    const hideTimer = setTimeout(() => {
+      setShowSplash(false);
+    }, 1800);
+
+    return () => {
+      clearTimeout(fadeTimer);
+      clearTimeout(hideTimer);
+    };
+  }, []);
+
   return (
     <BrowserRouter>
+      <SplashScreen isVisible={showSplash} isFading={isFading} />
       <Routes>
         {/* Core flow */}
         <Route path="/" element={<Home />} />
