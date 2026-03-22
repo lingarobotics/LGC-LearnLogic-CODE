@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import ExampleTranscript from "./examples/ExampleTranscript";
-import PageWrapper from "./components/PageWrapper";
+import ExampleTranscript from "../examples/ExampleTranscript";
+import PageWrapper from "../components/PageWrapper";
 
 function ExampleTranscriptPage() {
   const navigate = useNavigate();

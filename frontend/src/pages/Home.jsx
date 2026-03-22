@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import PageWrapper from "./components/PageWrapper";
+import PageWrapper from "../components/PageWrapper";
 
 function Home() {
   const navigate = useNavigate();
@@ -41,10 +41,41 @@ function Home() {
           </ul>
         </div>
 
+        {/* Buttons */}
         <div className="button-row">
-          <button className="btn-primary" onClick={() => navigate("/agenda")}>
+          <button
+            className="btn-primary"
+            onClick={() => navigate("/agenda")}
+          >
             Continue
           </button>
+
+          {/* LGC Systems Button */}
+          <a
+            href="https://lgcsystems.xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-block",
+              padding: "11px 18px",
+              borderRadius: "10px",
+              background: "#eef2ff",
+              border: "1px solid #c7d2fe",
+              color: "#3730a3",
+              textDecoration: "none",
+              fontSize: "14px",
+              fontWeight: "500",
+              transition: "all 0.2s ease"
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.background = "#e0e7ff";
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.background = "#eef2ff";
+            }}
+          >
+            Explore LGC Systems
+          </a>
         </div>
       </section>
     </PageWrapper>

@@ -2,25 +2,25 @@ import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SplashScreen from "./components/SplashScreen";
 
-import Home from "./Home";
-import MainAgenda from "./MainAgenda";
-import Transcript from "./Transcript";
+import Home from "./pages/Home";
+import MainAgenda from "./pages/MainAgenda";
+import Transcript from "./pages/Transcript";
 
 /* AI Prompt */
-import AIPrompt from "./AIPrompt";
-import AIPromptFull from "./AIPromptFull";
+import AIPrompt from "./pages/AIPrompt";
+import AIPromptFull from "./pages/AIPromptFull";
 
 /* Reading Guides */
-import ReadingGuide from "./ReadingGuide";
+import ReadingGuide from "./pages/ReadingGuide";
 
 /* Example */
-import Example from "./Example";
-import ExampleFlowGuide from "./ExampleFlowGuide";
-import ExampleReadingGuide from "./ExampleReadingGuidePage";
+import Example from "./pages/Example";
+import ExampleFlowGuide from "./pages/ExampleFlowGuide";
+import ExampleReadingGuide from "./pages/ExampleReadingGuidePage";
 
 /* Example Content Pages */
-import ExampleTranscriptPage from "./ExampleTranscriptPage";
-import ExampleAIResponsePage from "./ExampleAIResponsePage";
+import ExampleTranscriptPage from "./pages/ExampleTranscriptPage";
+import ExampleAIResponsePage from "./pages/ExampleAIResponsePage";
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);

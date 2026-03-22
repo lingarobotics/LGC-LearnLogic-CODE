@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import ExampleAIResponse from "./examples/ExampleAIResponse";
-import PageWrapper from "./components/PageWrapper";
+import ExampleAIResponse from "../examples/ExampleAIResponse";
+import PageWrapper from "../components/PageWrapper";
 
 function ExampleAIResponsePage() {
   const navigate = useNavigate();
