@@ -1,33 +1,35 @@
 # 💻 LearnLogic CODE — Development Documentation
 
-This documentation captures the **development journey of LearnLogic CODE** —  
-an execution-based learning system focused on **learning by doing, not consuming**.
+This documentation captures the **engineering journey of LearnLogic CODE** —  
+an execution-based learning system focused on:
 
-It highlights:
-> **how the system was built, debugged, structured, and evolved**
+> **learning by doing, understanding execution flow, and verifying through reasoning**
+
+This is not a feature showcase.  
+This is a **build story**.
 
 ---
 
-## 🧬 What This Documentation Captures
+## 🧬 What This Documentation Represents
 
-This is not a feature overview.
+This documentation captures:
 
-It documents:
-- early development struggles  
-- debugging process  
-- UI evolution  
-- project structuring decisions  
+- how the system started  
+- what problems were faced  
+- how those problems were debugged  
+- how the structure evolved over time  
 
-Each screenshot reflects a **real development stage or issue**.
+Each screenshot is not just UI — it is:
+> **evidence of a development decision**
 
 ---
 
 ## 🧠 Purpose
 
-- Track development progress  
+- Track real development progress  
 - Capture debugging insights  
-- Document system structure evolution  
-- Provide visual evidence of implementation  
+- Show architectural evolution  
+- Provide visual proof of system growth  
 
 ---
 
@@ -37,9 +39,9 @@ Each screenshot reflects a **real development stage or issue**.
 
 ![App Debugging](images/development-and-ui-screenshots/early-app.jsx-debugging.png)
 
-- Early issues during React setup  
-- Debugging component rendering and structure  
-- Establishing base application flow  
+- Initial issues in React setup  
+- Debugging rendering flow and component structure  
+- Establishing base execution flow  
 
 ---
 
@@ -47,9 +49,9 @@ Each screenshot reflects a **real development stage or issue**.
 
 ![Initial UI](images/development-and-ui-screenshots/early-example-UI-for-LearnLogicCODE.png)
 
-- First working UI for the system  
-- Focus on execution-based interaction  
-- Basic layout for concept + code  
+- First working UI  
+- Focus on execution-based learning interaction  
+- Minimal structure, maximum experimentation  
 
 ---
 
@@ -58,72 +60,98 @@ Each screenshot reflects a **real development stage or issue**.
 ![Initial Structure](images/development-and-ui-screenshots/initial-folder-structure.png)
 
 - Early folder organization  
-- Separation of concerns introduced  
-- Foundation for scaling  
+- Basic separation introduced  
+- Foundation laid for future scaling  
 
 ---
 
-## 🔄 Phase 2 — System Stabilization & UI Direction
+## 🔄 Phase 2 — UI Direction & System Identity
 
 ### 🔹 Splash Card Introduction
 
 ![Splash](images/development-and-ui-screenshots/current-v2-splash-card.png)
 
-- Entry point for users  
-- Clear starting interaction  
-- Improved first impression  
+- Defined system entry point  
+- Improved first interaction  
+- Established system identity  
 
 ---
 
-### 🔹 Home Page UI
+### 🔹 Home Page (Before Ecosystem Navigation)
 
-![Home](images/development-and-ui-screenshots/current-v2-home-page-UI.png)
+![Home Before](images/development-and-ui-screenshots/learnlogic-home-before-lgc-systems-navigation.png)
 
-- Central navigation point  
-- Structured layout for learning flow  
-- Improved usability  
-
----
-
-## 🧱 Phase 3 — Structure & Organization (v2)
-
-### 🔹 Frontend Folder Structure
-
-![Frontend Structure](images/development-and-ui-screenshots/current-v2-frontend-folder-structure.png)
-
-- Organized React project structure  
-- Clear separation:
-  - components  
-  - pages  
-  - logic layers  
+- Focused learning entry  
+- No external navigation  
+- Pure system interaction  
 
 ---
 
-### 🔹 Root-Level Project Files
+## 🧱 Phase 3 — Structural Evolution (Architecture Refactor)
+
+### 🔹 Before Refactor — Flat Structure
+
+![Old Structure](images/development-and-ui-screenshots/v1-flat-structure-before-pages-refactor.png)
+
+- All files located in root `src/`  
+- Limited scalability  
+- Harder to maintain as system grows  
+
+---
+
+### 🔹 After Refactor — Structured Architecture (v2)
+
+📅 22 March 2026
+
+![New Structure](images/development-and-ui-screenshots/learnlogic-frontend-structure-v2-pages-components-examples.png)
+
+- Introduced:
+  - `pages/` → route-level components  
+  - `components/` → reusable UI  
+  - `examples/` → controlled learning scenarios  
+
+- Improved:
+  - code readability  
+  - maintainability  
+  - scalability  
+
+---
+
+### 🔹 Root-Level Project Structure
 
 ![Root Files](images/development-and-ui-screenshots/current-v2-root-files-of-project.png)
 
-- Clean root configuration  
-- Environment and build setup  
-- Project-level organization  
+- Clean project configuration  
+- Organized environment and build setup  
+- Stable system foundation  
 
 ---
 
-## 🔍 Key Learnings
+## 🔍 Key Engineering Learnings
 
-- Early debugging defines system stability  
-- Clean structure reduces future complexity  
-- UI clarity improves execution-based learning  
-- Iterative improvement is more effective than over-planning  
+- Early debugging defines long-term stability  
+- Structure is not organization — it is **system design**  
+- File movement impacts system behavior (import paths, flow)  
+- UI should guide learning, not distract from it  
+- Iterative improvement > over-planning  
+
+---
+
+## 🧠 Core Insight
+
+> A system is not built in one step.  
+> It evolves through debugging, restructuring, and decisions.
+
+This documentation reflects that evolution.
 
 ---
 
 ## 🧭 How to Use This Documentation
 
-- Follow phases to understand system evolution  
-- Refer debugging section for early issues  
-- Use structure references before scaling the project  
-- Treat this as development history, not notes  
+- Follow phases sequentially to understand system growth  
+- Refer debugging sections for early challenges  
+- Use structure comparison before scaling your own projects  
+- Treat this as **engineering history**, not notes  
 
 ---
 
