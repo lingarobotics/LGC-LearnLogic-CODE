@@ -77,13 +77,31 @@ Each screenshot is not just UI — it is:
 
 ---
 
-### 🔹 Home Page (Before Ecosystem Navigation)
+## 🚀 Phase 2.5 — Home Page Evolution (Ecosystem Integration)
+
+### 🔹 Before — Standalone Learning Entry
 
 ![Home Before](images/development-and-ui-screenshots/learnlogic-home-before-lgc-systems-navigation.png)
 
 - Focused learning entry  
 - No external navigation  
 - Pure system interaction  
+
+---
+
+### 🔹 After — LGC Systems Navigation Introduced
+
+![Home After](images/development-and-ui-screenshots/learnlogic-home-after-lgc-systems-navigation.png)
+
+- Added entry point to LGC Systems  
+- Maintains clean UI and visual balance  
+- Does not interrupt learning flow  
+
+🧠 **Decision Insight:**
+- Navigation added only on Home page  
+- Avoided placing inside learning flow  
+- Preserved execution-focused experience  
+- Aligns LearnLogic CODE with LGC ecosystem  
 
 ---
 
@@ -133,7 +151,10 @@ Each screenshot is not just UI — it is:
 - Structure is not organization — it is **system design**  
 - File movement impacts system behavior (import paths, flow)  
 - UI should guide learning, not distract from it  
-- Iterative improvement > over-planning  
+
+🔥 **New Insight:**
+- Ecosystem navigation must be intentional  
+- Entry points should not disrupt deep learning flows  
 
 ---
 
