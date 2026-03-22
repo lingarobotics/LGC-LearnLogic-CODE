@@ -206,6 +206,23 @@ This principle defines the system **end-to-end**.
 
 ---
 
+---
+
+## 📘 Development Documentation
+
+Detailed development history, including:
+
+- UI evolution  
+- debugging phases  
+- system restructuring  
+- real engineering decisions  
+
+is available in:
+
+👉 [`/docs`](./docs/README.md)
+
+---
+
 ## Ownership
 
 This software system is an original product developed under **LGC Systems**.
